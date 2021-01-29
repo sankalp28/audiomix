@@ -1,0 +1,58 @@
+{
+  "id": "1738065",
+  "name": "Audio mixer",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2272103",
+      "name": "audio",
+      "font_class": "Audio",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "13639278",
+      "name": "MuteAudio",
+      "font_class": "MuteAudio",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "10794637",
+      "name": "Warning",
+      "font_class": "Warning",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "13917864",
+      "name": "Grid",
+      "font_class": "Grid",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "13917865",
+      "name": "Lock",
+      "font_class": "Lock",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "13917868",
+      "name": "Unlock",
+      "font_class": "Unlock",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "10050236",
+      "name": "Headphone",
+      "font_class": "Headphone",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    }
+  ]
+}
