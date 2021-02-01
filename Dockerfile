@@ -3,5 +3,5 @@ FROM nginx:latest as main
 COPY conf/default.conf /etc/nginx/conf.d/
 
 FROM main
-RUN mkdir /usr/share/nginx/html/Dist
-COPY Dist/. /usr/share/nginx/html/Dist/
+RUN mkdir /usr/share/nginx/html/dist
+COPY Dist/. /usr/share/nginx/html/dist/
