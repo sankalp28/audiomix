@@ -3,5 +3,5 @@ FROM nginx:latest as main
 COPY conf/default.conf /etc/nginx/conf.d/
 
 FROM main
-RUN mkdir /usr/share/nginx/html/dist
-COPY dist/. /usr/share/nginx/html/dist/
+RUN mkdir /usr/share/nginx/html/audiomixer
+COPY dist/. /usr/share/nginx/html/audiomixer/
