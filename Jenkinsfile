@@ -7,7 +7,7 @@ pipeline
   {
       steps
       {
-          sh 'npm insatll
+          sh 'npm install'
           sh 'npm audit fix
           sh 'npm run build'   
       }
