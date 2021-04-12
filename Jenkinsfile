@@ -8,13 +8,13 @@ pipeline
       steps
       {
           sh 'npm install'
-          sh 'npm audit fix
+          sh 'npm audit fix'
           sh 'npm run build'   
       }
   }
   stage('test')
   {
-    echo "testing the application"
+   echo 'testing the application'
    
   
   
