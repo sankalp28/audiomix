@@ -9,7 +9,11 @@ pipeline
                                        {
                                             sh 'npm install'
                                             sh 'npm audit fix'
-                                            sh 'npm run build'   
+                                            sh 'npm run build' 
+                                            sh 'cd dist'
+						  sh 'sudo zip -r AudiomixerUI.zip .'
+						  sh 'cd ..'
+						  sh 'sudo mv ./dist/AudiomixerUI.zip .'  
                                        }
                              }
                         stage('test')
